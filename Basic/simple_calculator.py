@@ -12,14 +12,14 @@ def division(a,b):
 
 def main():
     while True:
-        a = int(input("Enter the value of a: "))
-        b = int(input("Enter the value of b: "))
         print("1. Addition")
         print("2. Subtraction")
         print("3. Multiplication")
         print("4. Division")
         print("0. Exit")
         choice = int(input("Enter your choice(0-4): "))
+        a = int(input("Enter the value of a: "))
+        b = int(input("Enter the value of b: "))
         if choice == 1:
             addition(a,b)
         elif choice == 2:
