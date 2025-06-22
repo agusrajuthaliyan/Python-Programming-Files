@@ -1,6 +1,4 @@
 def main():
-    if "varname".isidentifier():
-        print("The variable name is valid!")
-    else:
-        print("The variable name is invalid!")
+    print("$var".isidentifier())
+    print("var_name".isidentifier())
 main()
